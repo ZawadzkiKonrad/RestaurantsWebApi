@@ -1,0 +1,110 @@
+2022-03-12 00:00:33.8280||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 00:00:33.8552||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 00:00:33.8552||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 00:00:33.8552||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 00:00:33.8552||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 17:30:09.4058||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 17:30:09.4300||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 17:30:09.4300||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 17:30:09.4300||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 17:30:09.4318||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 17:31:44.1632||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 17:31:44.1921||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 17:31:44.1921||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 17:31:44.1921||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 17:31:44.1921||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 17:32:13.3854||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 17:32:13.4127||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 17:32:13.4127||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 17:32:13.4127||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 17:32:13.4127||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 17:41:22.4180||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 17:41:22.4509||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 17:41:22.4509||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 17:41:22.4509||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 17:41:22.4509||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 20:45:54.5576||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 20:45:54.6130||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 20:45:54.6130||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 20:45:54.6202||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 20:45:54.6202||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 20:48:02.8472|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Restaurants_Adresses_AdressId". The conflict occurred in database "Restaurant", table "dbo.Adresses", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:ebe97b04-1ac8-4ac8-bee3-850608a7cc6e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Restaurants.Services.RestaurantSeeder.Seed() in C:\Users\48797\Documents\web\Restaurants\Restaurants\Services\RestaurantSeeder.cs:line 32
+   at Restaurants.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, RestaurantSeeder seeder) in C:\Users\48797\Documents\web\Restaurants\Restaurants\Startup.cs:line 86
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-03-12 21:38:55.2240||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 21:38:55.2687||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 21:38:55.2687||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 21:38:55.2687||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 21:38:55.2774||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 22:09:17.4473||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 22:09:17.4766||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 22:09:17.4798||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 22:09:17.4798||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 22:09:17.4798||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 22:10:05.3020||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 22:10:05.3484||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 22:10:05.3484||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 22:10:05.3538||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 22:10:05.3538||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 22:10:54.5895||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 22:10:54.6393||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 22:10:54.6393||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 22:10:54.6393||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 22:10:54.6393||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 22:14:11.5359||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 22:14:11.5898||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 22:14:11.5898||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 22:14:11.5898||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 22:14:11.5898||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 23:04:48.3289||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 23:04:48.3581||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 23:04:48.3581||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 23:04:48.3581||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 23:04:48.3581||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 23:10:55.8175||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 23:10:55.8443||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 23:10:55.8443||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 23:10:55.8443||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 23:10:55.8538||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
+2022-03-12 23:26:39.2327||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-03-12 23:26:39.2594||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-03-12 23:26:39.2628||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-12 23:26:39.2628||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-12 23:26:39.2628||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\48797\Documents\web\Restaurants\Restaurants 
