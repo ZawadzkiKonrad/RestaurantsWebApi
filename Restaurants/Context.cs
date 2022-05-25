@@ -10,8 +10,10 @@ namespace Restaurants
 {
     public class Context : DbContext
     {
-        private string _connectionString=
-            "Server=localhost\\SQLEXPRESS01;Database=Restaurant;Trusted_Connection=True;";
+        private string _connectionString =
+            "Data Source=mssql4.webio.pl,2401;Database=ekelner_webapi;Uid=ekelner_admin;Password=Ekelner1!;";
+           
+            //"Server=localhost\\SQLEXPRESS01;Database=Restaurant;Trusted_Connection=True"
 
         public DbSet<Restaurant> Restaurants { get; set; }
         public DbSet<Adress> Adresses { get; set; }

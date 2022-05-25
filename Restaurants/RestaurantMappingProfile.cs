@@ -28,7 +28,9 @@ namespace Restaurants
 
             CreateMap<CreateOrderVm, Order>();
             CreateMap<Order, OrderVm>();
+            CreateMap<Category, CategoryVm>();
             CreateMap<OrderItem, OrderItemVm>();
+            CreateMap<CreateDishVm , Dish>().ReverseMap();
            
             
         }

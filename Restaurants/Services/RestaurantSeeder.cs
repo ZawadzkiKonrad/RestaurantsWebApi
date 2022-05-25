@@ -131,42 +131,62 @@ namespace Restaurants.Services
         {
             var restaurants = new List<Restaurant>()
             {
-                //new Restaurant ()
-                //{
-                //    Name="Sushi Room",
-                //    Category="Japanesse",
-                //    Description="sushi",
-                //    ContactEmail="email@sushiroom.pl"
-                    
-                //},
                 new Restaurant ()
                 {
-                    Name="Kraft Bistro",
+                    Name="Sushi Bistro",
                     Category="Polska",
                     Description="rozne",
-                    ContactEmail="email@kraftbistro.pl",
+                    ContactEmail="sushi@bistro.pl",
                     Dishes= new List<Dish>()
                     {
                         new Dish()
                         {
-                            Name="Margherita",
+                            Name="sushi1",
                             Price=19.00M,
-                            CategoryId=4
+                            CategoryId=3
                         },
                         new Dish()
                         {
-                            Name="Parma",
+                            Name="sushi2",
                             Price=26.00M,
-                            CategoryId=4
+                            CategoryId=2
                         },
                     },
                     Adress=new Adress()
                     {
                         City="Radom",
-                        Street="Curie-Sklodowskiej 5",
+                        Street="Curie-Sklodowskiej 55",
                         PostalCode="26-600"
                     }
                 }
+                //new Restaurant ()
+                //{
+                //    Name="Kraft Bistro",
+                //    Category="Polska",
+                //    Description="rozne",
+                //    ContactEmail="email@kraftbistro.pl",
+                //    Dishes= new List<Dish>()
+                //    {
+                //        new Dish()
+                //        {
+                //            Name="Margherita",
+                //            Price=19.00M,
+                //            CategoryId=4
+                //        },
+                //        new Dish()
+                //        {
+                //            Name="Parma",
+                //            Price=26.00M,
+                //            CategoryId=4
+                //        },
+                //    },
+                //    Adress=new Adress()
+                //    {
+                //        City="Radom",
+                //        Street="Curie-Sklodowskiej 5",
+                //        PostalCode="26-600"
+                //    }
+                //}
             };
             return restaurants;
         }

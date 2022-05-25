@@ -6,6 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZ6NNF681ukmwlJjIbHDevwAAAAACAAAAAAAQZgAAAAEAACAAAACPi7Guqoo989oy1oXKvdxvnaMUox773g+KEbxPcBAUYAAAAAAOgAAAAAIAACAAAADju1kdCYTqAqiW0sOFiKHGiPZ4GOFBM+OIVDHVmK6A5SAAAAAhDyEdEmFJjy30ehlpfOAXVxOjkFVvY9UWdtM2zrMemEAAAADzHPk1mZBKe1nNuzfoDTN5D636zJeNhhg/x/HrOeRCrRlvYX2zrjfQR2DVOM49Vw135w5S1roBDiZv0GW9W83t</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZ6NNF681ukmwlJjIbHDevwAAAAACAAAAAAAQZgAAAAEAACAAAADgAEfJL7ozC9hj4kHMY2ZVgjs+DDeKTmoR1F91TytkDgAAAAAOgAAAAAIAACAAAAAvPzPhYpyzX1PA0u8P7W9mRKN+XzeNlhQAVaC6cMshPSAAAABp9eAH3Opzzrbrce2vtykT2tFbeB3y1nvW40RkeKJTOUAAAADoCcEId4EcrLl94KuWKQI8ncIKJ9SYezArDc9Nadc0nbgqnS/zVfTh8+zzbF5L5N7Xo4N5lfNtHJL+a22ILLQM</EncryptedPassword>
+    <History>True|2022-05-19T14:50:28.7078784Z;True|2022-05-08T22:05:31.8384644+02:00;</History>
   </PropertyGroup>
 </Project>

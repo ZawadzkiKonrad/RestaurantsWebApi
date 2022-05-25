@@ -14,7 +14,7 @@ namespace Restaurants.Controller
 {
     [Route("api/restaurant")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
 
     public class RestaurantController : ControllerBase
     {
